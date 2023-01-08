@@ -22,8 +22,9 @@
     <header class="header">
       <div class="container">
         <div class="header__container">
-            <a class="header__logo logo__name" href="./index.html"
-              ><span class="logo__accent">Web</span>Studio</a>
+          <a class="header__logo logo__name" href="./index.html"
+            ><span class="logo__accent">Web</span>Studio</a
+          >
           <nav>
             <ul class="header__nav list">
               <li class="header__item">
@@ -229,55 +230,57 @@
       </section>
     </main>
     <footer>
-      <section class="part">
-        <div class="container footer">
+      <section class="footer__part">
+        <div class="container">
+          <div class="footer">
           <div class="container-info">
               <a class="logo__name" href="./index.html"
                 ><span class="logo__accent">Web</span
-                ><span class="studio">Studio</span></a>
-            <address class="info">м. Київ, пр-т Лесі Українки, 26</address>
-            <address>
-              <ul class="info list">
+                ><span class="footer__studio">Studio</span></a
+              >
+              <address class="footer__info">м. Київ, пр-т Лесі Українки, 26</address>
+              <address>
+              <ul class="footer__info list">
                 <li>
-                  <a href="mailto:info@devstudio.com" class="info-link"
+                  <a class="footer__info-link" href="mailto:info@devstudio.com"
                     >info@devstudio.com</a
                   >
                 </li>
                 <li>
-                  <a href="tel.:+380961111111" class="info-link"
+                  <a class="footer__info-link" href="tel.:+380961111111"
                     >+38 096 111 11 11</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="bloc-footer">
-            <h3 class="text-name">приєднуйтесь</h3>
+          <div class="social">
+            <h3 class="social__text-name">приєднуйтесь</h3>
             <div>
-              <ul class="socials-list list">
-                <li class="icon-footer">
-                  <a class="icon-name" href="#">
+              <ul class="social__socials-list list">
+                <li class="social__icon">
+                  <a class="social__icon-name" href="#">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-footer">
-                  <a class="icon-name" href="#">
+                <li class="social__icon">
+                  <a class="social__icon-name" href="#">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-footer">
-                  <a class="icon-name" href="#">
+                <li class="social__icon">
+                  <a class="social__icon-name" href="#">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
-                <li class="icon-footer">
-                  <a class="icon-name" href="#">
+                <li class="social__icon">
+                  <a class="social__icon-name" href="#">
                     <svg width="20" height="20">
                       <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                     </svg>
@@ -286,25 +289,26 @@
               </ul>
             </div>
           </div>
-          <div class="blok-mailing">
-            <h2 class="mailing">Підпишіться на розсилку</h2>
-            <div class="mailing-user">
-              <label class="email-field-label" for="user-email"></label>
+          <div class="footer-mailing">
+            <h2 class="footer-mailing__mailing-name">Підпишіться на розсилку</h2>
+            <div class="footer-mailing__mailing-user">
+              <label class="footer-mailing__email-field-label" for="user-e-mail"></label>
               <input
-                class="mailing-e-mail"
-                id="user-email"
+                class="footer-mailing__mailing-e-mail"
+                id="user-e-mail"
                 type="email"
-                name="user-email"
+                name="user-e-mail"
                 placeholder="E-mail"
               />
-              <button class="mailing-button" type="button">
+              <button class="footer-mailing__mailing-button" type="button">
                 Підписатися
                 <svg width="24" height="24">
-                  <use href="/images/symbol-defs.svg#icon-untitled"></use>
+                  <use href="./images/symbol-defs.svg#icon-untitled"></use>
                 </svg>
               </button>
             </div>
           </div>
+        </div>
         </div>
       </section>
     </footer>
