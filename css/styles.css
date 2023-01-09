@@ -80,7 +80,7 @@ section {
   text-decoration: none;
 }
 
-.logo__accent {
+.logo__name--accent {
   color: var(--accent-color);
 }
 
@@ -211,7 +211,7 @@ section {
 /* Герой */
 /* секція */
 
-.section-heder {
+.main {
   text-align: center;
 }
 
@@ -232,7 +232,7 @@ section {
   background-color: var(--title-background-color);
 }
 
-.section-title {
+.main__title {
   margin-top: 0;
   margin-bottom: 30px;
 
@@ -245,7 +245,7 @@ section {
   text-transform: uppercase;
 }
 
-.button {
+.main__button {
   display: inline-block;
   min-width: 152px;
   border-radius: 4px;
@@ -265,8 +265,8 @@ section {
   background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button:focus {
+.main__button:hover,
+.main__button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -287,7 +287,7 @@ section {
   margin: -1px;
 }
 
-.benefits-text {
+.benefits__text {
   width: 270px;
   margin-bottom: 10px;
   font-weight: 700;
@@ -298,7 +298,7 @@ section {
   font-style: normal;
 }
 
-.desc {
+.benefits__desc {
   color: var(--title-text-color);
   font-weight: 400;
   font-size: 14px;
@@ -306,12 +306,12 @@ section {
   letter-spacing: 0.03em;
 }
 
-.blok {
+.benefits__blok {
   display: block;
   margin-right: 30px;
 }
 
-.list-benefits {
+.benefits__list {
   display: flex;
   list-style: none;
   padding-left: 0;
@@ -319,36 +319,36 @@ section {
   margin-block-end: 0;
 }
 
-.blok:last-child {
+.benefits__blok:last-child {
   margin-right: 0px;
 }
 
-.icon {
+.benefits__icon {
   display: block;
   height: 120px;
   margin-bottom: 30px;
   background-color: #F5F4FA;
 }
 
-.icon-antenna {
+.icon__antenna {
   height: 70px;
   width: 70px;
   margin: 25px 102.54px;
 }
 
-.icon-clock-1 {
+.icon__clock-1 {
   height: 70px;
   width: 66.96px;
   margin: 25px 101.54px;
 }
 
-.icon-diagram {
+.icon__diagram {
   height: 53.60px;
   width: 70px;
   margin: 33.11px 100px;
 }
 
-.icon-astronaut {
+.icon__astronaut {
   height: 70px; 
   width: 70px;
   margin: 25px 100px;
@@ -356,7 +356,7 @@ section {
 
 /* Чим ми займаємось */
 
-.subtitle-text {
+.addition__text {
   margin-top: 0;
   margin-bottom: 50px;
 
@@ -368,11 +368,11 @@ section {
   text-align: center;
 }
 
-.aside {
+.addition {
   padding-top: 0px;
 }
 
-.subtitle-main {
+.addition__main {
   margin: 0;
   padding: 0;
   display: flex;
@@ -382,21 +382,21 @@ section {
   flex-wrap: wrap;
 }
 
-.subtitle-list {
+.addition__list {
   list-style: none; 
   background: url(close-up-image-programer-working-his-desk-office_1098-18707.jpg);
   mix-blend-mode: normal;
 }
 
-.subtitle-main:nth-child(3n) {
+.addition__main:nth-child(3n) {
   margin-right: 0px;
 }
 
-.card {
+.addition__card {
 position: relative;
 }
 
-.card-text {
+.addition__card-text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -956,7 +956,6 @@ position: relative;
 
 .form-field__control{
  position: relative;
- 
 }
 
 .form-field__icon {
