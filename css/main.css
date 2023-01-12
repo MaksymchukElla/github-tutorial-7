@@ -476,7 +476,7 @@ p {
   overflow: hidden;
 }
 
-.card-set__card-img-overlay {
+.card-set__card-overlay {
   position: absolute;
   top: 0;
   left: 0;
